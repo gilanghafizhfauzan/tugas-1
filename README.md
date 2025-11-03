@@ -62,3 +62,18 @@ public class tugasku {
         input.close();
     }
 }
+Program di atas memiliki **dua fungsi utama**:
+
+1. **Menghitung biaya ekspedisi**
+
+   * Input: berat, jarak, panjang, lebar, dan tinggi paket.
+   * Jika jarak ≤ 10 km → biaya/kg = Rp 4.250
+     Jika jarak > 10 km → biaya/kg = Rp 6.000
+   * Jika volume paket > 100 cm³ → tambah biaya Rp 50.000
+   * Hasil akhir: menampilkan volume dan total biaya kirim.
+
+2. **Menentukan bilangan ganjil atau genap**
+
+   * Input: satu bilangan bulat.
+   * Jika `bilangan % 2 == 0` → genap, selain itu → ganjil.
+
